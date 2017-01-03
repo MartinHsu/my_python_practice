@@ -1,0 +1,6 @@
+import template_class
+fo = template_class.Duck('Martin')
+#print(fo._Duck__name)
+print(fo.name)
+fo.name = 'Frank'
+print(fo.name)
